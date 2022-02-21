@@ -1,0 +1,453 @@
+body {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+/*cabecera*/
+header {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 334px;
+  background: white;
+}
+.cajalogo {
+  width: auto;
+  height: 250px;
+  display: flex;
+  align-self: center;
+  align-items: flex-end;
+  align-items: flex-end;
+}
+.navegador {
+  text-align: center;
+  font-family: "Lobster", cursive;
+  font-size: 48px;
+  background-color: rgb(66, 190, 39);
+  width: 100%;
+  height: 110px;
+}
+ul {
+  display: flex;
+  margin: 0px;
+  padding: 0, 20px, 0, 20px;
+}
+li {
+  display: inline;
+  width: 500px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.navegador ul li a {
+  color: white;
+  text-decoration: none;
+}
+.navegador ul li a:hover {
+  color: yellow;
+  text-decoration: none;
+}
+/*contenedor*/
+
+.Container {
+  width: auto;
+  height: 666px;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../Assets/fotos/fondo-inicio.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dulce {
+  position: absolute;
+  left: 4.03%;
+  top: 36.92%;
+  bottom: 55.43%;
+  font-family: "Lobster", cursive;
+  font-weight: normal;
+  font-weight: bold;
+  font-size: 77px;
+  color:  #9C01C3;
+  margin-top: 150px;
+}
+
+.h2productos {
+  margin-top: 100px;
+  font-size: 54px;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Lobster", cursive;
+  font-style: normal;
+  font-weight: normal;
+  color: #34BE27;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+
+
+.contenedorhistoria {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.h1historia {
+  font-family: "Lobster", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  text-align: center;
+  margin-top: 0px;
+  color: #16BE1D;
+}
+
+.phistoria {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 36px;
+  text-align: justify; 
+  margin-top: -70px;
+}
+
+.contenedorproductos{
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  align-items: center;
+}
+
+.h1productos {
+  font-family: "Lobster", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #16BE1D;
+}
+.hlistas{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Lobster", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 42px;
+  text-align: center;
+  margin-top: 0px;
+  color: #FF00C7;
+
+}
+.hlistas h2{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.hlistas h2 a{
+  text-decoration: none;
+  color: #FF00C7;
+}
+.hlistas h2 a:hover{
+  text-decoration: none;
+  color: black;
+}
+
+.column img {
+  float: left;
+  padding: 10px;
+}
+
+.texto {
+  float: left;
+}
+
+
+/*Piruleta*/
+.row {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: 0px;
+  margin-left: 5%;
+  margin-right: 5%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.h1piruletas {
+  font-family: "Lobster", cursive;
+  font-style: normal;
+  font-weight:bold; 
+  font-size: 72px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #16BE1D;
+}
+.column{
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+.caja {
+  display: flex;
+  align-content: flex-start;
+  justify-content: space-evenly;
+}
+.caja h2{
+  font-family: "Lobster", cursive;
+  font-style: normal;
+  font-weight:bold; 
+  font-size: 25px;
+  text-align:left;
+  color: black;   
+} 
+.caja p{
+  font-family: "Lobster", cursive;
+  font-style: normal;
+  font-weight:normal;
+  font-size: 16px;
+  text-align:left;
+  color: black;   
+} 
+
+/*Chocolate*/
+.cajachocolates {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: 0px;
+  margin-left: 5%;
+  margin-right: 5%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.cajachocolates h1{
+  font-family: "Lobster", cursive;
+  font-style: normal;
+  font-weight:bold; 
+  font-size: 66px;
+  text-align:right;
+  color: #FF00C7;  
+  margin: 0px; 
+}
+.cajachocolates h2{
+  font-family: "Lobster", cursive;
+  font-style: normal;
+  font-weight:bold; 
+  font-size: 60px;
+  text-align:left;
+  color: #16BE1D;
+  margin: 0px;   
+}
+.row-chocolate{
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+.columnas-chocolates{
+  display: flex;
+  align-content: flex-start;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+.caja-producto{
+  width:21%;
+}
+.caja-texto{
+  width: 79%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.caja-texto h3{
+  margin: 0px;
+  font-family: "Lobster", cursive;
+  font-size: 32px;
+  font-style: normal;
+  font-weight:bold;
+  text-align:left;
+  color: black;   
+  text-align:left;
+  font-weight:normal 
+}
+.caja-texto p{
+  margin-top: 10px;
+  font-family: "Lobster", cursive;
+  font-style: normal;
+  font-weight:normal;
+  font-size: 16px;
+  text-align:left;
+  color: black;  
+}
+
+/*Caramelos*/
+.caja-caramelo{
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: 0px;
+  margin-left: 5%;
+  margin-right: 5%;
+  flex-direction: column;
+}
+.caja-caramelo h1{
+  font-family: "Lobster", cursive;
+  font-style: normal;
+  font-weight:bold; 
+  font-size: 72px;
+  text-align:center;
+  color:  #16BE1D;  
+  margin: 0px; 
+}
+.row-caramelo{
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  padding-left: 2%;
+}
+.columnas-caramelo{
+  display: flex;
+  flex-direction:row;
+
+}
+.caja-producto-caramelo{
+  width: 42%;
+}
+.caja-texto-caramelo{
+  width: 58%;
+  padding-left: 4%;
+  padding-right: 13%;
+}
+.caja-texto-caramelo h2{
+  font-family: "Lobster", cursive;
+  font-style: normal;
+  font-weight:bold; 
+  font-size: 25px;
+  text-align:left;
+  color: black;   
+}
+.caja-producto-caramelo p{
+  font-family: "Lobster", cursive;
+  font-style: normal;
+  font-weight:normal;
+  font-size: 16px;
+  text-align:left;
+  color: black;  
+}
+
+/*Caramelos*/
+.cajacaramelos {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: 0px;
+  margin-left: 5%;
+  margin-right: 5%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.caramelos h1 {
+  font-family: "Lobster", cursive;
+  font-style: normal;
+  font-weight:bold; 
+  font-size: 72px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #16BE1D;
+}
+
+.row-caramelos {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.columnas-caramelos {
+  display: flex;
+  align-content: flex-start;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.cajacaramelos{
+  width:21%;
+}
+
+.caramelos h2 {
+  font-family: "Lobster", cursive;
+  font-style: normal;
+  font-weight:bold; 
+  font-size: 25px;
+  text-align:left;
+  color: black;   
+}
+
+.cajastexto {
+  margin: 0px;
+  font-family: "Lobster", cursive;
+  font-size: 32px;
+  font-style: normal;
+  color: black;   
+  text-align:left;
+  font-weight:normal 
+}
+
+/*footer*/
+footer {
+  font-family: font-family "Love Ya Like A Sister", cursive;
+  background-color: white;
+  width: 100%;
+  height: 160px;
+  display: flex;
+  flex-direction: row;
+}
+
+.pie_logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50%;
+  margin-bottom: -10px;
+}
+
+.pie_contacto {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-right: 5%;
+}
+.pie-h3 {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-weight: lighter;
+  font-size: 28px;
+  text-align: right;
+}
+.contenedor-contacto {
+  height: auto;
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: right;
+}
+.contenedor-contacto p {
+  font-size: 14px;
+}
+.contenedor-contacto p a{
+  color: black;
+  text-decoration: none;
+}
+.iconos-contacto {
+  display: flex;
+  flex-direction: row;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 10px;
+}
