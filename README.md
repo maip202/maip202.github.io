@@ -1,65 +1,81 @@
-# Bubbal Bumm
+# Pim Pam Fuera!
 
-<img width="375" alt="Captura de pantalla 2022-02-20 a las 13 17 45" src="https://user-images.githubusercontent.com/99267946/154842116-fef11599-e8b2-4a3e-806d-a99e4a159866.png">
-
-
-## **Repositorie**
-
-https://github.com/maip202/E-commerce-.git
-
-## **About Bubbal Bumm**
+![Logo](https://user-images.githubusercontent.com/99225997/156580193-dd28f99d-b8c4-4aac-9a11-89c9369ecce5.jpg)
 
 
-Bubbal Bumm is a leading company in the sweets sector, with 37 years of history. After the health situation we are experiencing, they decide to expand their sales through new technologies, so they hire our "Travel 2.0" team to develop their website.
+## **Repository**
+
+https://github.com/Lupe13/Pim-Pam-Fuera.git
 
 
-## **Target of Bubbal Bumm**
+## **About Pim Pam Fuera!**
 
-Adapt to new times and customs by applying new technologies to attract new customers and increase sales. The objetive are users of all ages who like sweets or want to make an original gift.
+Pim Pam Fuera! is a web page that has been entrusted to the Travel 2.0 developer team and whose purpose is that when we cannot make a decision, Pim Pam's roulette makes the decision for us.
+
+
+## **Target of Pim Pam Fuera!**
+
+The targets are users of all ages who want to choose a person from the list to raffle something such as a bicycle, be a class delegate at school or be president of the Community of Neighbors.
 
 
 ## **Requirements**
 
-- A page where you can see the catalog of the products we offer. Three products: candies, Saint Jordi chocolates and lollipops.
-- Where our customers can see the relevant information of each product.
-- Make a change in the image of the company.
-- Prices can´t change.
-- In the image of the company make the logo and play with the color palette.
-- The visible contact.
+- Web page in which you do not need to register.
+- The roulette will make the decisions for us.
+- Make it a page that is fun so that most users like it.
+- Functionalities:
+    1. Random selection of names
+    2. Delete the selected names from the list
+    3. Reset the list
+    4. Add animations and audios
+    5. Add Dark mode
 
 
 ## **Development**
 
-The execution of the project has been carried out in Trello.
-https://trello.com/b/YI3PV1yF/e-commerce-project-5g
+The tracking of the project has been done in Trello.
 
-<img width="1728" alt="Captura de pantalla 2022-02-20 a las 13 14 29" src="https://user-images.githubusercontent.com/99267946/154841977-52b1f32c-75de-44ca-a1ec-dac5733569c6.png">
+https://trello.com/b/yPMW0YUl/wheel-of-doom
+
+<img width="1728" height="450" alt="captura de pantalla 2022-03-03 081902 Trello" src="https://user-images.githubusercontent.com/99225997/156580642-6764f8ed-c1e5-498c-b82f-8e181dc1e041.jpg">
 
 
-The wireframe has been created in Balsamiq and the MockUp in Figma.
-https://www.figma.com/file/biHp1LExio8L9egk7oPBIP/Bubbal-bumm?node-id=81%3A4
+**The sketech has been created in Miro**
 
-<img width="1728" alt="Captura de pantalla 2022-02-20 a las 13 14 51" src="https://user-images.githubusercontent.com/99267946/154842021-38c5c701-20ee-4769-973a-9105466476f1.png">
+<img width="1728" height="500" alt="Sketech" src="https://user-images.githubusercontent.com/99225997/156582004-9a63ec1d-3ff0-4c0b-a9dc-7885a93f476c.jpg">
 
-<img width="1728" alt="Captura de pantalla 2022-02-20 a las 13 15 05" src="https://user-images.githubusercontent.com/99267946/154842030-89a671f6-48e1-44c9-a569-f609ab3701f5.png">
+**...the wireframe in Balsamiq**
+
+<img width="1728" height="600" alt="Wireframe" src="https://user-images.githubusercontent.com/99225997/156582177-92dcf79e-77ed-4792-a5b6-af83886da38d.jpg">
+
+**...and the MockUp in Figma.**
+
+https://www.figma.com/file/RVwMkHy9GWnS3LNFwhlDST/Pim-Pum-Fuera?node-id=0%3A1
+
+<img width="1728" height="500" alt="MockUP" src="https://user-images.githubusercontent.com/99225997/156582622-e62fe4a5-31c0-411e-96eb-167c10688040.jpg">
 
 
 ## **Tools**
 
 - Trello
+- Miro
 - Balsamiq
 - Figma
 - Visual Studio Code
   - HTML
   - CSS
+  - JS
 - GitHub
+
 
 ## **Team**
 
 -  maip202
 -  CarlitosHunter
 -  PMuin
+-  Lupe13
+-  Samuel
 
+## **How to use it**
 
-
-
+``git clone https://github.com/Lupe13/Pim-Pam-Fuera.git``
